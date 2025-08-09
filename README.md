@@ -35,7 +35,7 @@ Para executar este projeto em seu ambiente local, siga estas etapas:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+    git clone [https://github.com/goncasthiago/my_acp_project.git](https://github.com/goncasthiago/my_acp_project.git)
     cd seu-repositorio
     ```
 
@@ -44,6 +44,13 @@ Para executar este projeto em seu ambiente local, siga estas etapas:
     pip install -r requirements.txt
     ```
 
+    **Utilizando o UV:**
+    ```bash
+    cd my_acp_project
+    uv init
+    uv venv
+    uv add crewai crewai-tools acp-sdk load_dotenv nest-asyncio python-dotenv
+    ```
 3.  **Adicione sua chave de API:**
     * Renomeie o arquivo `.env.example` para `.env`.
     * Insira sua chave de API do modelo de linguagem que você utilizará (por exemplo, `OPENAI_API_KEY`).
@@ -101,7 +108,7 @@ To run this project in your local environment, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-user/your-repository.git](https://github.com/your-user/your-repository.git)
+    git clone [https://github.com/goncasthiago/my_acp_project.git](https://github.com/goncasthiago/my_acp_project.git)
     cd your-repository
     ```
 
@@ -109,6 +116,13 @@ To run this project in your local environment, follow these steps:
     ```bash
     pip install -r requirements.txt
     ```
+
+     **Using UV:**
+    ```bash
+    cd my_acp_project
+    uv init
+    uv venv
+    uv add crewai crewai-tools acp-sdk load_dotenv nest-asyncio python-dotenv
 
 3.  **Add your API key:**
     * Rename the `.env.example` file to `.env`.

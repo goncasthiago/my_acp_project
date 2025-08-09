@@ -3,7 +3,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 os.environ["OPENAI_API_KEY"]
-
 from collections.abc import AsyncGenerator
 from acp_sdk.models import Message, MessagePart
 from acp_sdk.server import RunYield, RunYieldResume, Server
