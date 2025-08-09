@@ -1,9 +1,9 @@
 from collections.abc import AsyncGenerator
 from acp_sdk.models import Message, MessagePart
-from acp_sdk.server import RunYield, RunYieldResume, Server
+from acp_sdk.server import RunYield, RunYieldResume, Server, Context
 from smolagents import CodeAgent, DuckDuckGoSearchTool, LiteLLMModel, VisitWebpageTool, ToolCallingAgent, ToolCollection
 from mcp import StdioServerParameters
-import os
+
 server = Server()
 
 model = LiteLLMModel(
@@ -11,16 +11,10 @@ model = LiteLLMModel(
     max_tokens=2048
 )
 
-#server_parameters = StdioServerParameters(
-#    command="uv",
-#    args=["run", "mcpserver.py"],
-#    env=None,
-#)
-
 server_parameters = StdioServerParameters(
     command="uv",
     args=["run", "mcpserver.py"],
-    env={"UV_PYTHON": "3.13.3", **os.environ},
+    env=None,
 )
 
 @server.agent()
