@@ -50,7 +50,7 @@ Para executar este projeto em seu ambiente local, siga estas etapas:
     uv init
     uv venv
     source .venv/bin/activate
-    uv add crewai crewai-tools acp-sdk load_dotenv nest-asyncio python-dotenv colorama
+    uv add crewai crewai-tools acp-sdk load_dotenv nest-asyncio python-dotenv colorama smolagents duckduckgo-search markdownify requests
     ```
 3.  **Adicione sua chave de API:**
     * Renomeie o arquivo `.env.example` para `.env`.
@@ -124,7 +124,7 @@ To run this project in your local environment, follow these steps:
     uv init
     uv venv
     source .venv/bin/activate
-    uv add crewai crewai-tools acp-sdk load_dotenv nest-asyncio python-dotenv colorama
+    uv add crewai crewai-tools acp-sdk load_dotenv nest-asyncio python-dotenv colorama smolagents duckduckgo-search markdownify requests
 
 3.  **Add your API key:**
     * Rename the `.env.example` file to `.env`.
