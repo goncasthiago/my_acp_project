@@ -1,0 +1,7 @@
+curl --location 'http://localhost:8001/runs' \
+--header 'Content-Type: application/json' \
+--data '{
+        "agent_name": "policy_agent",
+        "input": [{"role": "user", "parts": [{"content": "What is the waiting period for rehabilitation?"}]}],
+        "mode": "sync"
+      }'

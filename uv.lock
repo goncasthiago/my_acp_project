@@ -1807,6 +1807,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "acp-sdk" },
+    { name = "colorama" },
     { name = "crewai" },
     { name = "crewai-tools" },
     { name = "load-dotenv" },
@@ -1817,6 +1818,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "acp-sdk", specifier = ">=1.0.1" },
+    { name = "colorama", specifier = ">=0.4.6" },
     { name = "crewai", specifier = ">=0.157.0" },
     { name = "crewai-tools", specifier = ">=0.60.0" },
     { name = "load-dotenv", specifier = ">=0.1.0" },

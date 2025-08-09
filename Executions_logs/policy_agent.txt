@@ -1,0 +1,163 @@
+
+INFO:     Run started
+╭────────────────────────────────────────────────────────────── Crew Execution Started ───────────────────────────────────────────────────────────────╮
+│                                                                                                                                                     │
+│  Crew Execution Started                                                                                                                             │
+│  Name: crew                                                                                                                                         │
+│  ID: f3ffc974-a816-4e82-b701-ad906c630fd5                                                                                                           │
+│  Tool Args:                                                                                                                                         │
+│                                                                                                                                                     │
+│                                                                                                                                                     │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+🚀 Crew: crew
+└── 📋 Task: c0ec3eee-e739-4f8e-b22c-e065580a8852
+    Status: Executing Task...
+╭───────────────────────────────────────────────────────────────── 🤖 Agent Started ──────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                     │
+│  Agent: Senior Insurance Coverage Assistant                                                                                                         │
+│                                                                                                                                                     │
+│  Task: What is the waiting period for rehabilitation?                                                                                               │
+│                                                                                                                                                     │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+12:22:27 - LiteLLM:INFO: utils.py:3258 - 
+LiteLLM completion() model= gpt-4; provider = openai
+2025-08-09 12:22:27,051 - 6227603456 - utils.py-utils:3258 - INFO: 
+LiteLLM completion() model= gpt-4; provider = openai
+INFO:     
+LiteLLM completion() model= gpt-4; provider = openai
+🚀 Crew: crew
+└── 📋 Task: c0ec3eee-e739-4f8e-b22c-e065580a8852
+    Status: Executing Task...
+    └── 🧠 Thinking...2025-08-09 12:22:28,938 - 6227603456 - _client.py-_client:1025 - INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:     HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+🚀 Crew: crew
+└── 📋 Task: c0ec3eee-e739-4f8e-b22c-e065580a8852
+    Status: Executing Task...
+/Users/thiago.goncalves/Documents/mcp/my_acp_project/.venv/lib/python3.13/site-packages/chromadb/types.py:144: PydanticDeprecatedSince211: Accessing 
+the 'model_fields' attribute on the instance is deprecated. Instead, you should access this attribute from the model class. Deprecated in Pydantic 
+V2.11 to be removed in V3.0.
+  return self.model_fields  # pydantic 2.x
+🚀 Crew: crew
+└── 📋 Task: c0ec3eee-e739-4f8e-b22c-e065580a8852
+    Status: Executing Task...
+    └── 🔧 Using Knowledge base (1)2025-08-09 12:22:30,485 - 6227603456 - base.py-base:252 - INFO: Prompt: 
+You are a Q&A expert system. Your responses must always be rooted in the context provided for each query. Here are some guidelines to follow:
+
+1. Refrain from explicitly mentioning the context provided in your response.
+2. The context should silently guide your answers without being directly acknowledged.
+3. Do not use phrases such as 'According to the context provided', 'Based on the context, ...' etc.
+
+Context information:
+----------------------
+Health Programs & Support Our Health and Hospital Substitution programs are designed to support our members on their health journey or on their road to recovery. We have a number of programs to suit a variety of health and recovery needs. HEALTH PROGRAMS Our health programs are designed to help you keep on top of your health and live a healthier life. We have a range of health programs to help you manage a number of different health conditions. The waiting period to recieve health programs is 2 months of continuous cover. HOSPITAL SUBSTITUTION PROGRAMS* Our Hospital substitution programs allow you and/or your family members to recover in the comfort of your own home with a range of in home hospital treatments, so you can have the choice of treatments that suit your needs. You’ll need to have served your 2-month waiting period and have a referral from your treating doctor to be eligible. Please note, anything that is a pre-existing condition will have a 12-month waiting period. | CLINICAL CATEGORIES WAITING PERIOD GOLD Rehabilitation 2 months 4 Hospital psychiatric services 2 months 4 Palliative care 2 months 4 Brain and nervous system 2 months 4 Eye (not cataracts) 2 months 4 Ear, nose and throat 2 months 4 Tonsils, adenoids and grommets 2 months 4 Bone, joint and muscle 2 months 4 Joint reconstructions 2 months 4 Kidney and bladder 2 months 4 Male reproductive system 2 months 4 Digestive system 2 months 4 Hernia and appendix 2 months 4 Gastrointestinal endoscopy 2 months 4 Gynaecology 2 months 4 Miscarriage and termination of pregnancy 2 months 4 Chemotherapy, radiotherapy and immunotherapy for cancer 2 months 4 Pain management 2 months 4 Skin 2 months 4 Breast surgery (medically necessary) 2 months 4 CLINICAL CATEGORIES WAITING PERIOD GOLD Diabetes management (excluding insulin pumps) 2 months 4 Heart and vascular system 2 months 4 Lung and chest 2 months 4 Blood 2 months 4 Back, neck and spine 2 months 4 Plastic and reconstructive surgery (medically | 12-month waiting period. CHEMO AT HOME Did you know RBHS hospital cover gives you access to chemotherapy treatment at home? Our trusted provider, View Health, have a program called Chemo at Home that allows you to get the treatment you need (if it’s covered by Medicare) delivered in your home including chemotherapy, targeted cancer therapies and targeted therapies for inflammatory bowel disease. REHAB AT HOME Rehab at Home helps you recover in the comfort of your own home with short-term therapy for joint replacements, fractures, spinal conditions, stroke, respiratory conditions, cardiac conditions and mobility problems. We cover physiotherapy, occupational therapy and more. Please note that waiting periods may apply for these health programs.
+----------------------
+
+Query: waiting period for rehabilitation coverage
+Answer:
+
+INFO:     Prompt: 
+You are a Q&A expert system. Your responses must always be rooted in the context provided for each query. Here are some guidelines to follow:
+
+1. Refrain from explicitly mentioning the context provided in your response.
+2. The context should silently guide your answers without being directly acknowledged.
+3. Do not use phrases such as 'According to the context provided', 'Based on the context, ...' etc.
+
+Context information:
+----------------------
+Health Programs & Support Our Health and Hospital Substitution programs are designed to support our members on their health journey or on their road to recovery. We have a number of programs to suit a variety of health and recovery needs. HEALTH PROGRAMS Our health programs are designed to help you keep on top of your health and live a healthier life. We have a range of health programs to help you manage a number of different health conditions. The waiting period to recieve health programs is 2 months of continuous cover. HOSPITAL SUBSTITUTION PROGRAMS* Our Hospital substitution programs allow you and/or your family members to recover in the comfort of your own home with a range of in home hospital treatments, so you can have the choice of treatments that suit your needs. You’ll need to have served your 2-month waiting period and have a referral from your treating doctor to be eligible. Please note, anything that is a pre-existing condition will have a 12-month waiting period. | CLINICAL CATEGORIES WAITING PERIOD GOLD Rehabilitation 2 months 4 Hospital psychiatric services 2 months 4 Palliative care 2 months 4 Brain and nervous system 2 months 4 Eye (not cataracts) 2 months 4 Ear, nose and throat 2 months 4 Tonsils, adenoids and grommets 2 months 4 Bone, joint and muscle 2 months 4 Joint reconstructions 2 months 4 Kidney and bladder 2 months 4 Male reproductive system 2 months 4 Digestive system 2 months 4 Hernia and appendix 2 months 4 Gastrointestinal endoscopy 2 months 4 Gynaecology 2 months 4 Miscarriage and termination of pregnancy 2 months 4 Chemotherapy, radiotherapy and immunotherapy for cancer 2 months 4 Pain management 2 months 4 Skin 2 months 4 Breast surgery (medically necessary) 2 months 4 CLINICAL CATEGORIES WAITING PERIOD GOLD Diabetes management (excluding insulin pumps) 2 months 4 Heart and vascular system 2 months 4 Lung and chest 2 months 4 Blood 2 months 4 Back, neck and spine 2 months 4 Plastic and reconstructive surgery (medically | 12-month waiting period. CHEMO AT HOME Did you know RBHS hospital cover gives you access to chemotherapy treatment at home? Our trusted provider, View Health, have a program called Chemo at Home that allows you to get the treatment you need (if it’s covered by Medicare) delivered in your home including chemotherapy, targeted cancer therapies and targeted therapies for inflammatory bowel disease. REHAB AT HOME Rehab at Home helps you recover in the comfort of your own home with short-term therapy for joint replacements, fractures, spinal conditions, stroke, respiratory conditions, cardiac conditions and mobility problems. We cover physiotherapy, occupational therapy and more. Please note that waiting periods may apply for these health programs.
+----------------------
+
+🚀 Crew: crew
+└── 📋 Task: c0ec3eee-e739-4f8e-b22c-e065580a8852
+    Status: Executing Task...
+    └── 🔧 Used Knowledge base (1)
+╭────────────────────────────────────────────────────────────── 🔧 Agent Tool Execution ──────────────────────────────────────────────────────────────╮
+│                                                                                                                                                     │
+│  Agent: Senior Insurance Coverage Assistant                                                                                                         │
+│                                                                                                                                                     │
+│  Thought: I need to check the standard period for rehabilitation coverage under insurance policies.                                                 │
+│                                                                                                                                                     │
+│  Using Tool: Knowledge base                                                                                                                         │
+│                                                                                                                                                     │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭──────────────────────────────────────────────────────────────────── Tool Input ─────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                     │
+│  "{\"query\": \"waiting period for rehabilitation coverage\"}"                                                                                      │
+│                                                                                                                                                     │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭──────────────────────────────────────────────────────────────────── Tool Output ────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                     │
+│  Relevant Content:                                                                                                                                  │
+│  Health Programs & Support Our Health and Hospital Substitution programs are designed to support our members on their health journey or on their    │
+│  road to recovery. We have a number of programs to suit a variety of health and recovery needs. HEALTH PROGRAMS Our health programs are designed    │
+│  to help you keep on top of your health and live a healthier life. We have a range of health programs to help you manage a number of different      │
+│  health conditions. The waiting period to recieve health programs is 2 months of continuous cover. HOSPITAL SUBSTITUTION PROGRAMS* Our Hospital     │
+│  substitution programs allow you and/or your family members to recover in the comfort of your own home with a range of in home hospital             │
+│  treatments, so you can have the choice of treatments that suit your needs. You’ll need to have served your 2-month waiting period and have a       │
+│  referral from your treating doctor to be eligible. Please note, anything that is a pre-existing condition will have a 12-month waiting period.     │
+│                                                                                                                                                     │
+│  CLINICAL CATEGORIES WAITING PERIOD GOLD Rehabilitation 2 months 4 Hospital psychiatric services 2 months 4 Palliative care 2 months 4 Brain and    │
+│  nervous system 2 months 4 Eye (not cataracts) 2 months 4 Ear, nose and throat 2 months 4 Tonsils, adenoids and grommets 2 months 4 Bone, joint     │
+│  and muscle 2 months 4 Joint reconstructions 2 months 4 Kidney and bladder 2 months 4 Male reproductive system 2 months 4 Digestive system 2        │
+│  months 4 Hernia and appendix 2 months 4 Gastrointestinal endoscopy 2 months 4 Gynaecology 2 months 4 Miscarriage and termination of pregnancy 2    │
+│  months 4 Chemotherapy, radiotherapy and immunotherapy for cancer 2 months 4 Pain management 2 months 4 Skin 2 months 4 Breast surgery (medically   │
+│  necessary) 2 months 4 CLINICAL CATEGORIES WAITING PERIOD GOLD Diabetes management (excluding insulin pumps) 2 months 4 Heart and vascular system   │
+│  2 months 4 Lung and chest 2 months 4 Blood 2 months 4 Back, neck and spine 2 months 4 Plastic and reconstructive surgery (med...                   │
+│                                                                                                                                                     │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+12:22:30 - LiteLLM:INFO: utils.py:3258 - 
+LiteLLM completion() model= gpt-4; provider = openai
+2025-08-09 12:22:30,499 - 6227603456 - utils.py-utils:3258 - INFO: 
+LiteLLM completion() model= gpt-4; provider = openai
+INFO:     
+LiteLLM completion() model= gpt-4; provider = openai
+🚀 Crew: crew
+└── 📋 Task: c0ec3eee-e739-4f8e-b22c-e065580a8852
+    Status: Executing Task...
+    ├── 🔧 Used Knowledge base (1)
+    └── 🧠 Thinking...2025-08-09 12:22:33,887 - 6227603456 - _client.py-_client:1025 - INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+🚀 Crew: crew
+└── 📋 Task: c0ec3eee-e739-4f8e-b22c-e065580a8852
+    Status: Executing Task...
+    └── 🔧 Used Knowledge base (1)
+╭─────────────────────────────────────────────────────────────── ✅ Agent Final Answer ───────────────────────────────────────────────────────────────╮
+│                                                                                                                                                     │
+│  Agent: Senior Insurance Coverage Assistant                                                                                                         │
+│                                                                                                                                                     │
+│  Final Answer:                                                                                                                                      │
+│  The standard waiting period for rehabilitation coverage is 2 months. However, if the need for rehabilitation is due to a pre-existing condition,   │
+│  the waiting period extends to 12 months. Please be aware that this information is a general reference and the specifics can vary according to the  │
+│  individual insurance policy.                                                                                                                       │
+│                                                                                                                                                     │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+🚀 Crew: crew
+└── 📋 Task: c0ec3eee-e739-4f8e-b22c-e065580a8852
+    Assigned to: Senior Insurance Coverage Assistant
+    Status: ✅ Completed
+    └── 🔧 Used Knowledge base (1)
+╭────────────────────────────────────────────────────────────────── Task Completion ──────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                     │
+│  Task Completed                                                                                                                                     │
+│  Name: c0ec3eee-e739-4f8e-b22c-e065580a8852                                                                                                         │
+│  Agent: Senior Insurance Coverage Assistant                                                                                                         │
+│  Tool Args:                                                                                                                                         │
+│                                                                                                                                                     │
+│                                                                                                                                                     │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────────────────── Crew Completion ──────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                     │
+│  Crew Execution Completed                                                                                                                           │
+│  Name: crew                                                                                                                                         │
+│  ID: f3ffc974-a816-4e82-b701-ad906c630fd5                                                                                                           │
+│  Tool Args:                                                                                                                                         │
+│  Final Output: The standard waiting period for rehabilitation coverage is 2 months. However, if the need for rehabilitation is due to a             │
+│  pre-existing condition, the waiting period extends to 12 months. Please be aware that this information is a general reference and the specifics    │
+│  can vary according to the individual insurance policy.                                                                                             │
+│                                                                                                                                                     │
+│                                                                                                                                                     │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯

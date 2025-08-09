@@ -49,7 +49,8 @@ Para executar este projeto em seu ambiente local, siga estas etapas:
     cd my_acp_project
     uv init
     uv venv
-    uv add crewai crewai-tools acp-sdk load_dotenv nest-asyncio python-dotenv
+    source .venv/bin/activate
+    uv add crewai crewai-tools acp-sdk load_dotenv nest-asyncio python-dotenv colorama
     ```
 3.  **Adicione sua chave de API:**
     * Renomeie o arquivo `.env.example` para `.env`.
@@ -122,7 +123,8 @@ To run this project in your local environment, follow these steps:
     cd my_acp_project
     uv init
     uv venv
-    uv add crewai crewai-tools acp-sdk load_dotenv nest-asyncio python-dotenv
+    source .venv/bin/activate
+    uv add crewai crewai-tools acp-sdk load_dotenv nest-asyncio python-dotenv colorama
 
 3.  **Add your API key:**
     * Rename the `.env.example` file to `.env`.
